@@ -6,8 +6,8 @@ from pymatriz.parser import MarketDataMessageParser, BookMessageParser, Connecti
 
 config = {
     "ssl": True,
-    "url": "https://mtzdma.primary.ventures/",
-    "ws_url": "wss://mtzdma.primary.ventures/",
+    "url": "https://matriz.eco.xoms.com.ar/",
+    "ws_url": "wss://matriz.eco.xoms.com.ar/",
     "message_parsers": {
         MessageType.MarketData: MarketDataMessageParser,
         MessageType.Book: BookMessageParser,
