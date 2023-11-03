@@ -56,8 +56,8 @@ class RestClient(ApiClient):
         realm = "dma3-prod-db"
         credential_type = "http://auth0.com/oauth/grant-type/password-realm"
 
-        matriz_url = "https://mtzdma.primary.ventures"
-        redirect_uri = "https://mtzdma.primary.ventures/auth/auth0/callback"
+        matriz_url = "https://matriz.eco.xoms.com.ar"
+        redirect_uri = "https://matriz.eco.xoms.com.ar/auth/auth0/callback"
 
         # Get Auth0 Login ticket
         payload = json.dumps({
